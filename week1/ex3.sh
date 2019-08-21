@@ -1,3 +1,3 @@
-date
+date +"%T"
 sleep 3
-date
+date +"%T"
