@@ -1,0 +1,8 @@
+page size = 8 * 1024 = 8192 bits.
+
+we have 2^16/2^13 = 8 virtual pages.
+
+Also 8 is a number of needed entries in the page table.
+
+So, 8 is an answer.
+
