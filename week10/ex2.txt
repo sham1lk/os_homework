@@ -1,0 +1,2 @@
+/home/shamil/os_homework/week10/_ex2.txt
+/home/shamil/os_homework/week01/file.txt
