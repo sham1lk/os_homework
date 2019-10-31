@@ -1,0 +1,2 @@
+In the first program, we see "hello" two times because parent copies string to the buffer(do not print) then creates child this copies buffer then parent sees "/n" and prints "hello" from buffer and child makes the same
+In the second program parent prints "hello" before creating child so child has empty buffer so the child does not print "hello"
