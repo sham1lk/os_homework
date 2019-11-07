@@ -1,0 +1,20 @@
+time ./copy ex2.txt ex3copiedfile.txt >> ex3.txt
+
+real	0m0.003s
+user	0m0.000s
+sys	0m0.003s
+
+time ./copy ex2.txt ex3copiedfile.txt //O_SYNC
+
+real	0m0.036s
+user	0m0.004s
+sys	0m0.000s
+
+time ./copy -DBUF_SIZE=1024  ex2.txt ex3copiedfile.txt
+
+real	0m0.001s
+user	0m0.001s
+sys	0m0.000s
+
+
+
